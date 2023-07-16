@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Delius+Unicase:wght@700&family=Inter&family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+}
+.main{
+    height:inherit;
+}
+.top-section{
+    height:44vh;
+    background-color:#ffffff;
+    padding:25px 40px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    gap:20px;
+}
+.main-heading{
+    color: #B42B5C;
+    font-family: Roboto;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.side-heading{
+    color: #2B62B4;
+    font-family: Roboto;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.description{
+    color: #ACACAC;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 163.687%;
+        /* 63.838px */
+    letter-spacing: 0.39px;
+}
+.bottom-section{
+    height:56vh;
+    display:flex;
+}
+.bottom-right-section{
+    height:inherit;
+    width:50%;
+    background-color: #BE4973;
+    padding:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left:5vw;
+    width:80%;
+}
+.bottom-left-section {
+    height: inherit;
+    width: 50%;
+    background-color: #B42B5C;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding-left:5vw;
+    width:80%;
+}
+.bottom-left-section-heading{
+    color: #FFDCE8;
+    font-family: Roboto;
+    font-size: 41.047px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.price-amount{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 71px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.price-description{
+    color: #FFBBD3;
+    font-family: Roboto;
+    font-size: 41.047px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price-info{
+    color: #FFDCE8;
+    font-family: Roboto;
+    font-size: 41.047px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.price-info>span{
+    font-weight:700;
+}
+.button{
+    border-radius: 10px;
+    background: #4576BD;
+    box-shadow: 0px 21px 47px 0px rgba(0, 0, 0, 0.35);
+    border:none;
+    width:60%;
+    padding:20px 10px;
+    color: #E0EDFF;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.bottom-right-section-heading{
+    color: #FFDCE8;
+    font-family: Roboto;
+    font-size: 41.047px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-start;
+}
+ul{
+    list-style-type:none;
+}
+.bottom-right-section li{
+    color: #FFBBD3;
+    font-family: Roboto;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.66px;
+}
